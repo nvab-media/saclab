@@ -18,5 +18,10 @@ def second_pdf():
 def third_pdf():
     return send_from_directory(directory='sql', path='pdf3.pdf')
 
+@app.route("/4")
+def ddl():
+    return send_from_directory(directory='sql', path='dbms.pdf')
+
+
 if __name__ == "__main__":
     app.run()

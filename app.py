@@ -10,6 +10,11 @@ def serve_pdf():
 def se_pdf():
     return send_from_directory(directory='sql', path='pdf1.pdf')
 
+
+@app.route("/alive")
+def alive():
+    return "Keep alive"
+
 @app.route("/2")
 def second_pdf():
     return send_from_directory(directory='sql', path='pdf2.pdf')

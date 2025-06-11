@@ -6,6 +6,10 @@ app = Flask(__name__)
 def serve_pdf():
     return send_from_directory(directory='sql', path='pdf1.pdf')
 
+@app.route("/1")
+def se_pdf():
+    return send_from_directory(directory='sql', path='pdf1.pdf')
+
 @app.route("/2")
 def second_pdf():
     return send_from_directory(directory='sql', path='pdf2.pdf')

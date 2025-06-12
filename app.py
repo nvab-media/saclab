@@ -31,9 +31,6 @@ def ddl():
 def ghjk():
     return send_from_directory(directory='sql', path='pdf4.pdf')
 
-@app.route("/5")
-def ghjk():
-    return send_from_directory(directory='sql', path='pdf4.pdf')
 
 @app.route("/6")
 def img():

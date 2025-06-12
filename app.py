@@ -26,6 +26,10 @@ def third_pdf():
 @app.route("/4")
 def ddl():
     return send_from_directory(directory='sql', path='dbms.pdf')
+    
+@app.route("/5")
+def ghjk():
+    return send_from_directory(directory='sql', path='pdf4.pdf')
 
 
 if __name__ == "__main__":

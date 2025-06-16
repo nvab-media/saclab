@@ -74,7 +74,7 @@ vul = {
 "nmap --script vuln <ip>":"all vuln detetction"
 }
 index = {
-"/vul": " vul and ",
+"/vul": " vul scan \n",
 "/nmap":"For nmap scan\n",
 "/linux":"For Linux\n",
 "/windows":"For windows \n"

@@ -16,12 +16,12 @@ command_usage = {
     "ipconfig": "Displays TCP/IP configuration (Windows).",
     "pathping": "Combines ping and tracert for packet loss/latency (Windows).",
     "getmac": "Displays MAC addresses of network adapters (Windows).",
-    "arp": "Displays/modifies ARP cache (Windows).",
-    "tracert": "Traces route to a destination (Windows).",
-    "route": "Displays or modifies IP routing table (Windows).",
-    "nslookup": "Queries DNS records for domains.",
-    "whois": "Fetches domain/IP registration info.",
-    "dig": "DNS lookup tool (Linux)."
+    "arp": "-a Displays/modifies ARP cache (Windows).",
+    "tracert": "<google.com>   (Windows).",
+    "route": "<print>    Displays or modifies IP routing table (Windows).",
+    "nslookup": "<link>  Queries DNS records for domains.",
+    "whois": "-v <link> Fetches domain/IP registration info.",
+    "dig": "<link>  DNS lookup tool (Linux)."
 }
 
 # Nmap command dictionary

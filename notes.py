@@ -14,14 +14,14 @@ command_usage = {
     "netstat": "Displays network connections, routing tables, interface stats, etc.",
     "ifconfig": "Configures and displays network interfaces (Linux).",
     "ipconfig": "Displays TCP/IP configuration (Windows).",
-    "pathping": "Combines ping and tracert for packet loss/latency (Windows).",
+    "pathping": "<link> , Combines ping and tracert for packet loss/latency (Windows).",
     "getmac": "Displays MAC addresses of network adapters (Windows).",
     "arp": "-a Displays/modifies ARP cache (Windows).",
-    "tracert": "<google.com>   (Windows).",
-    "route": "<print>    Displays or modifies IP routing table (Windows).",
-    "nslookup": "<link>  Queries DNS records for domains.",
-    "whois": "-v <link> Fetches domain/IP registration info.",
-    "dig": "<link>  DNS lookup tool (Linux)."
+    "tracert": "<google.com>,   (Windows).",
+    "route": "<print>  ,Displays or modifies IP routing table (Windows).",
+    "nslookup": "<link> , Queries DNS records for domains.",
+    "whois": "-v <link> ,Fetches domain/IP registration info.",
+    "dig": "<link> , DNS lookup tool (Linux)."
 }
 
 # Nmap command dictionary
@@ -69,6 +69,7 @@ nmap_commands = {
 }
 
 vul = {
+"nmap <ip/24>":"Scan sub net",
 "nmap -sS <ip>":"basic port scan",
 "nmap -O -sV <ip>":"Os and sV detection",
 "nmap --script vuln <ip>":"all vuln detetction"
